@@ -55,7 +55,7 @@ function Update () {
 	} else if ((Input.GetKeyDown (KeyCode.Space) && gameObject.name  == "P1Selector") || (Input.GetKeyDown (KeyCode.Return) && gameObject.name  == "P2Selector")){
 		playerReady = true;
 		if (otherPlayer.GetComponent(PlayerSelectorScript).playerReady){
-			Application.LoadLevel ("MainScene");
+			Application.LoadLevel ("Depths");
 		}
 	}
 	}
