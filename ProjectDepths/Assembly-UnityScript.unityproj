@@ -46,8 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Trap_Script.js" />
-     <Compile Include="Assets\Use_Trap.js" />
+     <Compile Include="Assets\Scripts\Player1Controller.js" />
+     <Compile Include="Assets\Scripts\Trap_Script.js" />
+     <Compile Include="Assets\Scripts\Use_Trap.js" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
