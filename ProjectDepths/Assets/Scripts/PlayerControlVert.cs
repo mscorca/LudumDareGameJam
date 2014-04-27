@@ -14,7 +14,7 @@ public class PlayerControlVert : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(rigidbody2d.velocity.y == 0){
+/*		if(rigidbody2d.velocity.y == 0){
 			isGrounded = true;
 		}
 
@@ -24,10 +24,11 @@ public class PlayerControlVert : MonoBehaviour {
 		}
 	
 	}
+*/
 
-	void onCollisionEnter2D(Collision2D col){
-		Debug.Log("Collided with " + col.gameObject);
-		isGrounded = true;
+		if(Input.GetKey("a")){
+			this.rigidbody2D.AddForce(new Vector2(-2.0f, 0.0f));
+			Debug.Log("input received");
+		}
 	}
-
 }
