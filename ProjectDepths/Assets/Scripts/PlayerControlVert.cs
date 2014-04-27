@@ -14,14 +14,15 @@ public class PlayerControlVert : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		if(rigidbody2d.velocity.y == 0){
+			isGrounded = true;
+		}
+
 		if(Input.GetButtonDown("Jump") && isGrounded){
 			rigidbody2d.AddForce(transform.up * jumpPower);
 			isGrounded = false;
 		}
-
-		if(rigidbody2d.velocity.y == 0){
-			isGrounded = true;
-		}
+	
 	}
 
 	void onCollisionEnter2D(Collision2D col){
