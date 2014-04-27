@@ -36,9 +36,9 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_Mass: 1
-  m_LinearDrag: 3
-  m_AngularDrag: .400000006
+  m_Mass: .5
+  m_LinearDrag: 4
+  m_AngularDrag: .600000024
   m_GravityScale: 0
   m_FixedAngle: 0
   m_IsKinematic: 0
@@ -64,6 +64,7 @@ PolygonCollider2D:
       - {x: -.207835913, y: .0483760834}
       - {x: -.25527072, y: -.160802841}
       - {x: -.24000001, y: -.29513073}
+      - {x: -.196220398, y: -.389715195}
       - {x: -.105270386, y: -.484189034}
       - {x: .0820243359, y: -.484189034}
       - {x: .159207106, y: -.426463127}
@@ -86,7 +87,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45226b148fef5de41b750457b31507c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 5
+  dirForceVert: 10
+  dirForceHoriz: 25
   rigidbody2d: {fileID: 5000000}
   gameOver: 0
 --- !u!212 &21200000
