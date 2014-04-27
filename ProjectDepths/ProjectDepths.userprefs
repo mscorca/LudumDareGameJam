@@ -1,13 +1,6 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerControlHoriz.cs">
-    <Files>
-      <File FileName="Assets/Scripts/PlayerControlVert.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PlayerControlHoriz.cs" Line="6" Column="24" />
-      <File FileName="Assets/Scripts/MenuScripts/GameDataScript.js" Line="16" Column="1" />
-      <File FileName="Assets/Scripts/MenuScripts/PlayerSelectorScript.js" Line="58" Column="34" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

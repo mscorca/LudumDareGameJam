@@ -23,7 +23,7 @@ function FixedUpdate () {
 
 function OnCollisionEnter2D(collision : Collision2D ){
 	Debug.Log(collision.gameObject.tag + " ");
-    if(collision.gameObject.tag == "Cube"){
+    if(collision.gameObject.tag == "Ground"){
     	collided = true;
      	rigidbody2D.velocity.x = 0;
     }
