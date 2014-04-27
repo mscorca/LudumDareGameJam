@@ -7,6 +7,9 @@ TagManager:
   - Player1
   - Player2
   - 
+  - Ground
+  - TheExit
+  - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
   Builtin Layer 2: Ignore Raycast
@@ -40,9 +43,9 @@ TagManager:
   User Layer 30: 
   User Layer 31: 
   m_SortingLayers:
-  - name: Default
-    userID: 0
-    uniqueID: 0
+  - name: InvisibleWalls
+    userID: 4
+    uniqueID: 2523586247
     locked: 0
   - name: Background
     userID: 1
@@ -55,4 +58,8 @@ TagManager:
   - name: Selectors
     userID: 3
     uniqueID: 3553729685
+    locked: 0
+  - name: Default
+    userID: 0
+    uniqueID: 0
     locked: 0

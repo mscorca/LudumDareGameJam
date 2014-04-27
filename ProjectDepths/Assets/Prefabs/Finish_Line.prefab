@@ -9,13 +9,11 @@ GameObject:
   m_Component:
   - 4: {fileID: 400000}
   - 212: {fileID: 21200000}
-  - 61: {fileID: 6100000}
-  - 50: {fileID: 5000000}
   - 114: {fileID: 11400000}
-  - 114: {fileID: 11400002}
-  m_Layer: 8
-  m_Name: DarkGrey_Box32x32
-  m_TagString: Ground
+  - 61: {fileID: 6100000}
+  m_Layer: 0
+  m_Name: Finish_Line
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,25 +25,10 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.76160526, y: 11.1984425, z: 0}
-  m_LocalScale: {x: 1, y: 3, z: 1}
+  m_LocalPosition: {x: -10.4129562, y: -.221988916, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!50 &5000000
-Rigidbody2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 1
-  m_FixedAngle: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
 --- !u!61 &6100000
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -55,7 +38,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: .319999993, y: .319999993}
+  m_Size: {x: 10, y: 2.5}
   m_Center: {x: 0, y: 0}
 --- !u!114 &11400000
 MonoBehaviour:
@@ -65,22 +48,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a034f75c08d69b4fac41754c44b19a9, type: 3}
+  m_Script: {fileID: 11500000, guid: a703ad67a9a95e64191083dd03f1b22c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wall: {fileID: 100000}
---- !u!114 &11400002
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a034f75c08d69b4fac41754c44b19a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wall: {fileID: 100000}
+  theTime: 0
+  finish: {fileID: 100000}
+  counter: 0
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -102,7 +75,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_SortingLayerID: 0
-  m_Sprite: {fileID: 21300000, guid: 2489657368700484fb55e5fdd056a384, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:

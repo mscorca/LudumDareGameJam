@@ -9,9 +9,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 400000}
   - 212: {fileID: 21200000}
-  - 61: {fileID: 6100000}
   - 50: {fileID: 5000000}
   - 114: {fileID: 11400002}
+  - 60: {fileID: 6000000}
   m_Layer: 0
   m_Name: Player2
   m_TagString: Player2
@@ -26,7 +26,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.96305227, y: 1.45532453, z: 0}
+  m_LocalPosition: {x: 2.44421816, y: 11.6460552, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -38,24 +38,43 @@ Rigidbody2D:
   m_GameObject: {fileID: 100000}
   m_Mass: 1
   m_LinearDrag: 3
-  m_AngularDrag: .0500000007
+  m_AngularDrag: .400000006
   m_GravityScale: 0
   m_FixedAngle: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
---- !u!61 &6100000
-BoxCollider2D:
+--- !u!60 &6000000
+PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: ff6d9094b98120d40933a91727e0129b, type: 2}
   m_IsTrigger: 0
-  m_Size: {x: .319999993, y: .319999993}
-  m_Center: {x: 0, y: 0}
+  m_Poly:
+    m_Paths:
+    - - {x: -.0658116341, y: .373646736}
+      - {x: -.237434626, y: .478918076}
+      - {x: -.25, y: .5}
+      - {x: -.25, y: .229999989}
+      - {x: -.114048719, y: .184728622}
+      - {x: -.207835913, y: .0483760834}
+      - {x: -.25527072, y: -.160802841}
+      - {x: -.24000001, y: -.29513073}
+      - {x: -.105270386, y: -.484189034}
+      - {x: .0820243359, y: -.484189034}
+      - {x: .159207106, y: -.426463127}
+      - {x: .213106632, y: -.338376999}
+      - {x: .246654272, y: -.18014431}
+      - {x: .231771946, y: -.0229139328}
+      - {x: .129674911, y: .177547455}
+      - {x: .238645554, y: .254543304}
+      - {x: .25, y: .5}
+      - {x: .231082201, y: .5}
+      - {x: .0698604584, y: .375131607}
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -69,6 +88,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxSpeed: 5
   rigidbody2d: {fileID: 5000000}
+  gameOver: 0
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -90,7 +110,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_SortingLayerID: 0
-  m_Sprite: {fileID: 21300000, guid: 9a636ac6a08843b48a6c450ea080b645, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d88d44fe48379b7488d4104fcede11a5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:
