@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\MenuScripts\GameDataScript.js" />
      <Compile Include="Assets\Scripts\MenuScripts\LevelSelectorScript.js" />
      <Compile Include="Assets\Scripts\MenuScripts\PlayerSelectorScript.js" />
+     <Compile Include="Assets\Scripts\Player1Controller.js" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">

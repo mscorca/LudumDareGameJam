@@ -5,11 +5,11 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{9DAE4C19-42FA-F986-DA25-A49BA03726EB}</ProjectGuid>
+	<ProjectGuid>{340DF7AC-B3A9-A9BB-7091-C756B8BCDBCC}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
-	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
 	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
 	<FileAlignment>512</FileAlignment>
 	<BaseDirectory>Assets</BaseDirectory>
@@ -46,11 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\GameScripts\PlayerScript.js" />
-     <Compile Include="Assets\Scripts\MenuScripts\GameDataScript.js" />
-     <Compile Include="Assets\Scripts\MenuScripts\LevelSelectorScript.js" />
-     <Compile Include="Assets\Scripts\MenuScripts\PlayerSelectorScript.js" />
-     <Compile Include="Assets\Scripts\Player1Controller.js" />
+     <Compile Include="Assets\Scripts\PlayerControlHoriz.cs" />
+     <Compile Include="Assets\Scripts\PlayerControlVert.cs" />
  <Reference Include="Library\ScriptAssemblies\Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
