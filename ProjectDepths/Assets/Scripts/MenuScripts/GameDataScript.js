@@ -9,7 +9,7 @@ var levelSelected = false;
 
 
 function Start () {
-		DontDestroyOnLoad (this.gameObject);
+	DontDestroyOnLoad (this.gameObject);
 }
 
 function Update () {

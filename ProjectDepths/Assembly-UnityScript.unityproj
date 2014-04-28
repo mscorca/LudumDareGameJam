@@ -46,13 +46,25 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ManageLevel.js" />
+     <Compile Include="Assets\Enable_GuiText.js" />
+     <Compile Include="Assets\Explosion_Animation.js" />
+     <Compile Include="Assets\Flame_Script.js" />
+     <Compile Include="Assets\GlobalSettings.js" />
+     <Compile Include="Assets\MarsVictoryScript.js" />
+     <Compile Include="Assets\Pillow_Collide.js" />
+     <Compile Include="Assets\Play_Explosion.js" />
+     <Compile Include="Assets\Restart_Script.js" />
      <Compile Include="Assets\Scripts\Camera_Movement.js" />
      <Compile Include="Assets\Scripts\Exit_Behavior.js" />
+     <Compile Include="Assets\Scripts\Intro_Control.js" />
+     <Compile Include="Assets\Scripts\ManageLevel.js" />
      <Compile Include="Assets\Scripts\MenuScripts\GameDataScript.js" />
      <Compile Include="Assets\Scripts\MenuScripts\LevelSelectorScript.js" />
      <Compile Include="Assets\Scripts\MenuScripts\PlayerSelectorScript.js" />
      <Compile Include="Assets\Scripts\Move_Walls.js" />
+     <Compile Include="Assets\SovietVictoryScript.js" />
+     <Compile Include="Assets\USVictoryScript.js" />
+     <Compile Include="Assets\Winner_Keeper_Script.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

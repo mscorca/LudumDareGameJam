@@ -36,7 +36,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_Mass: .5
+  m_Mass: 1
   m_LinearDrag: 4
   m_AngularDrag: .600000024
   m_GravityScale: 0
@@ -87,10 +87,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45226b148fef5de41b750457b31507c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dirForceVert: 10
-  dirForceHoriz: 25
+  dirForceVert: 1
+  dirForceHoriz: 1
   rigidbody2d: {fileID: 5000000}
-  gameOver: 0
+  stopped: 0
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

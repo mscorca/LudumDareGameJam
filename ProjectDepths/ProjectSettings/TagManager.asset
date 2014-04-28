@@ -6,7 +6,7 @@ TagManager:
   - Cube
   - Player1
   - Player2
-  - 
+  - Pillow
   - Ground
   - TheExit
   - 
@@ -62,4 +62,20 @@ TagManager:
   - name: Default
     userID: 0
     uniqueID: 0
+    locked: 0
+  - name: 1st
+    userID: 5
+    uniqueID: 2757231939
+    locked: 0
+  - name: 2nd
+    userID: 6
+    uniqueID: 80605897
+    locked: 0
+  - name: 3rd
+    userID: 7
+    uniqueID: 2382761893
+    locked: 0
+  - name: 4th
+    userID: 8
+    uniqueID: 2573517879
     locked: 0

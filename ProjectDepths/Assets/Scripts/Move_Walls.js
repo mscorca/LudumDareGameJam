@@ -15,7 +15,6 @@ function Start () {
 function Update () {
 	//to check if game over
 	gameEnded  = GameObject.Find("LevelManager").GetComponent(ManageLevel).gameOver;
-	Debug.Log(gameEnded);
 	//Only Update moving "animation" if not game over
 	if (!gameEnded){
 		this.gameObject.transform.position.y -= -.5;
@@ -35,15 +34,5 @@ function Update () {
 		--GameObject.Find("LevelManager").GetComponent(ManageLevel).numWalls;
 		Destroy(wall);
 	}
-	/*
-	if (counter >= 15){
-		var theFinish = Instantiate(finish, 
-									Vector3(Camera.main.transform.position.x, 
-									Camera.main.transform.position.y - Camera.main.transform.position.y/2, 
-									0), 
-									transform.rotation);
-		finishSpawned = true;
-	}
-	*/
 	
 }
